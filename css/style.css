@@ -59,7 +59,14 @@ footer {
   height: 100px;
 
 }
+.comingsoon{
+  height: 100%;
+width: 99%;
+}
 
+.g2{
+  background-color: #000000;
+}
 
 img[id="forkme_banner"] {
   margin: auto;
@@ -457,6 +464,8 @@ h2 {
       align-items: center;
   }
   
+ 
+
   .row2-container {
       display: flex;
       justify-content: center;
@@ -474,6 +483,41 @@ h2 {
       width: 30%;
   }
   
+}
+
+.saibamais button{
+  display: none;
+}
+
+.centralizar{
+  display: inline-flex;
+  margin-left: 1em;
+  font-family:  -apple-system;
+}
+.circulo{
+  width:60px;
+  height:60px;
+  position: absolute;
+  margin-top: 2.2em;
+  
+}
+h1[id="sobrenos"]{
+
+  margin-top: 1.5em;
+  margin-left: 2em;
+  font-size: 30px;  
+}
+.def{
+  margin: 1.7em;
+}
+.tex{
+  margin: 1.7em;
+}
+.center{
+  display: none;
+}
+.borda{
+  margin-bottom: 1.6em;
 }
 
 @media (max-width: 999px) {
@@ -506,6 +550,15 @@ h2 {
     text-decoration: none;
     
   }
+
+  h1[id="sobrenos"]{
+
+  margin-top: 1em;
+  font-size: 30px;
+  text-decoration-color: #a71313;
+  margin-left: 1.4em;
+  
+}
 
   body,html{
     overflow-x: hidden!important;
@@ -544,7 +597,18 @@ h2 {
     padding: 8px 17px;
     border-right: 1px solid rgba(0,0,0,0.4);
 }
-
+.centralizar{
+  display: inline-flex;
+  margin-left: 1em;
+  font-family:  -apple-system;
+}
+.circulo{
+  width:30px;
+  height:30px;
+  position: absolute;
+  margin-top: 2.2em;
+  
+}
 .buttonaction {
     border-left: 1px solid rgba(255,255,255,.2);
     padding: 5px 5px;
@@ -554,7 +618,14 @@ h2 {
     color: rgba(255,255,255,0.7);
 }
 
+h1[id="sobrenos"]{
 
+  margin-top: 1em;
+  font-size: 30px;
+  text-decoration-color: #a71313;
+  margin-left: 1.4em;
+  
+}
   .nav-list {
     position: absolute;
     top: 18vh;
@@ -584,8 +655,19 @@ h2 {
     margin-right: 0;
   }
 
-
-
+  .def{
+    margin: 1em;
+  }
+  .tex{
+    margin: 1em;
+  }
+  .center{
+    margin-left: 4.7em;
+    display: flex;
+  }
+  .borda{
+    margin-bottom: 1em;
+  }
 }
 
 
